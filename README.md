@@ -5,7 +5,7 @@ This is an algorithm to create exclusive clusters.
 
 **Mathematical Intuition and Notes**
 
-The theory discussed above can be mathematically expressed as:
+Mathematically expressed as:
 * Let C1, C2, Ck be the K clusters
 * Then we can write: $C_1 U C_2 UC_3 U…UC_k $={1,2,3,…,n} i.e., each datapoint has been assigned to a cluster.
 * The idea behind the K-Means clustering approach is that the within-cluster variation amongst the point should be minimum. The within-cluster variance is denoted by: W(Ck).Hence, according to the statement above, we need to  minimize this variance for all the clusters. 
